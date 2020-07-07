@@ -22,6 +22,7 @@ public class ServiceHiApplication {
 	@RequestMapping("/hi")
 	public String home(@RequestParam String name) {
 		System.out.println("master");
+		System.out.println("sdt");
 		return "hi "+name+",i am from port:" +port;
 	}
 
